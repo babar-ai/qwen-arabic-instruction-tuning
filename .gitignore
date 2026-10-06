@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints & Model Outputs
+qwen_improved_finetuned/
+arabic_llm_qwen_finetuned/
+checkpoints/
+runs/
+
+# Results & Logs
+*.csv
+*.json
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+.env
+env/
+
+# OS-specific
+.DS_Store
+Thumbs.db
